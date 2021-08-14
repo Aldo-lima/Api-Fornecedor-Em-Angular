@@ -1,0 +1,23 @@
+.card {
+    width: 95%;
+}
+
+.form{
+    width: 30%;
+    padding: 1rem;
+}
+
+.buttons {
+width: 100%;
+text-align:start;
+}
+
+.buttons {
+    margin-right: 10rem;
+    padding: 1rem;
+
+}
+
+input {
+    margin: 10px; 
+}
