@@ -1,0 +1,26 @@
+.content{
+    width: 100%;
+    margin: 1.4rem auto auto auto;
+
+}
+
+.table {
+
+    width: 100%;
+}
+.edit {
+    color:rgb(90, 181, 25);
+}
+
+.delete {
+    color:brown;
+    margin-left: 2rem;
+}
+
+.produto {
+    color:rgb(15, 110, 18);
+}
+
+.btn {
+    justify-content: flex-end;
+}

@@ -12,7 +12,7 @@ export class FornecedorReadComponent implements OnInit {
 
    fornecedor: Fornecedor[] = []
 
-  displayedColumns: string[] = ['id', 'nome', 'cnpj','insc_esta', 'product' ,'acoes'];
+  displayedColumns: string[] = ['id', 'nome', 'cnpj','insc_esta', 'verFornecedor', 'product' ,'acoes'];
   constructor(private service : FornecedorService, private router: Router) { }
 
   ngOnInit(): void {

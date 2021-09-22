@@ -1,0 +1,22 @@
+
+<mat-card class="card" mat-elevation-z4>
+
+    <form>
+        <h1>Criando novo Produto</h1>
+        <mat-form-field class="form">
+            <mat-label>Nome</mat-label>
+            <input matInput [(ngModel)]="product.name" [formControl]="name" required  type="text" name="name" placeholder="nome do produto" maxlength="100">
+            <mat-error *ngIf="name.invalid">{{getMenssage()}}</mat-error>
+        </mat-form-field>
+        <mat-form-field class="form">
+            <mat-label>preço</mat-label>
+            <input matInput [(ngModel)]="product.price" type="number" name="price" placeholder="digite o cnpj" maxlength="10">
+        </mat-form-field>
+        
+    
+        <div class="buttons">
+            <button (click)="create()" class="mat-elevation-z4" mat-button color="primary">CRIAR</button>
+            <button  class="mat-elevation-z4" mat-button color="warn">CANCELAR</button>
+        </div>
+    </form>
+    </mat-card>

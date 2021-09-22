@@ -17,10 +17,16 @@ import {MatCardModule} from '@angular/material/card';
 import { FornecedorReadComponent } from './components/views/Fornecedor/fornecedor-read/fornecedor-read.component';
 import {MatTableModule} from '@angular/material/table';
 import {MatButtonModule} from '@angular/material/button';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import { FornecedorCreateComponent } from './components/views/Fornecedor/fornecedor-create/fornecedor-create.component';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { FornecedorDeleteComponent } from './components/views/Fornecedor/fornecedor-delete/fornecedor-delete.component';
+import { FornecedorUpdateComponent } from './components/views/Fornecedor/fornecedor-update/fornecedor-update.component';
+import { ProductAllComponent } from './components/views/produto/product-all/product-all.component';
+import { ProductCreateComponent } from './components/views/produto/product-create/product-create.component';
+import { FornecedorDetalheComponent } from './components/views/Fornecedor/fornecedor-detalhe/fornecedor-detalhe.component';
+import { ContatoReadComponent } from './components/views/contato/contato-read/contato-read.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +37,12 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     HomeComponent,
     FornecedorReadComponent,
     FornecedorCreateComponent,
+    FornecedorDeleteComponent,
+    FornecedorUpdateComponent,
+    ProductAllComponent,
+    ProductCreateComponent,
+    FornecedorDetalheComponent,
+    ContatoReadComponent,
     
    
   ],
@@ -47,7 +59,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MatButtonModule,
     FormsModule,
     MatInputModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    ReactiveFormsModule
     
 
   ],

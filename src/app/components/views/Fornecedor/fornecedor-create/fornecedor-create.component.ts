@@ -9,10 +9,12 @@ import { Router } from '@angular/router';
   styleUrls: ['./fornecedor-create.component.css']
 })
 export class FornecedorCreateComponent implements OnInit {
-   fornecedor: Fornecedor ={
+  
+  fornecedor: Fornecedor ={
     nome: '',
     cnpj: '',
-    insc_esta: ''
+    insc_esta: '',
+    product: []
    }
 
 

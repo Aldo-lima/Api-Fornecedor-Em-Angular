@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'https://appaldobackend.herokuapp.com'
+  baseUrl: 'http://appaldobackend.herokuapp.com'
 };
 
 /*

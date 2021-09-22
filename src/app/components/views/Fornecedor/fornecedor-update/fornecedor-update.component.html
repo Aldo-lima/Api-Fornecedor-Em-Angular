@@ -1,0 +1,24 @@
+<mat-card class="card" mat-elevation-z4>
+
+    <form>
+        <h1>Editar Fornecedor</h1>
+        <mat-form-field class="form">
+            <mat-label>Nome</mat-label>
+            <input matInput [(ngModel)]="fornecedor.nome" type="text" name="nome" placeholder="Nome Fornecedor">
+        </mat-form-field>
+        <mat-form-field class="form">
+            <mat-label>CNPJ</mat-label>
+            <input matInput [(ngModel)]="fornecedor.cnpj" type="text" name="cnpj" placeholder="digite o cnpj" >
+        </mat-form-field>
+        <mat-form-field class="form">
+            <mat-label>Incrição Estadual</mat-label>
+            <input matInput [(ngModel)]="fornecedor.insc_esta" type="text" name="insc_esta"
+                placeholder="numero Iscrição estadual" >
+        </mat-form-field>
+
+        <div class="buttons">
+            <button (click)="update()" class="mat-elevation-z4" mat-button color="primary">Editar</button>
+            <button (click)="cancel()" class="mat-elevation-z4" mat-button color="warn">CANCELAR</button>
+        </div>
+    </form>
+</mat-card>
